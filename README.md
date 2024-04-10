@@ -1,5 +1,5 @@
 # Uno-Mate
-## Contents
+### Contents
 
 1. [Description](#description)
 2. [Requirements](#requirements)
@@ -18,27 +18,32 @@ It also has an important part to shuffle cards automatically.
 
 
 ## Requirements
-## Installation
+### Installation
 
-Install my-project with npm
+1. Clonar el repositori
 
 ```bash
-  npm install my-project
-  cd my-project
+  git clone https://https://github.com/PaulaFont/Uno-Mate
 ```
-    
-### Library
 
-#### Hardware (Fritzing)
+## Library
 
-#### 3D
+### [Hardware (Fritzing)](https://github.com/PaulaFont/Uno-Mate/Fritzing)
 
-#### Detecció de cartes
-### TO DO's
+
+### 3D
+
+
+### Detecció de cartes (VC)
+
+
+## TO DO's
 - [ ] Finish 3D Model in Tinckercad
 - [ ] Software Design Model
 - [ ] Hardware Model in Fritzing
-### References
+
+
+## References
 - [Shuffle Inspiration Video](https://www.youtube.com/watch?v=kTARmpW6t8g)
 - [Card Detector Github](https://github.com/EdjeElectronics/OpenCV-Playing-Card-Detector)
 - [Similar Project RLP](https://rlpengineeringschooluab2023.wordpress.com/2023/06/06/slapbot/)
