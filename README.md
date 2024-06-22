@@ -3,32 +3,48 @@
 
 1. [Description](#description)
 2. [Requirements](#requirements)
-3. [Installation](#installation)
-4. [Library](#library)
-5. [To-Do's](#to-dos)
-6. [References](#references)
+3. [Library](#library)
+4. [3D-Files](#3D-Files)
+5. [References](#references)
+6. [Autors](#3D-Files)
 
 
 ### Description
-This repository will be used to store and use all information related to our RLP Project.
+<div style="text-align: justify;">
 
-Uno-Mate is an assistant to play the game of Uno. It has new incorporations such as time control and game tracking. 
-It also has an important part to shuffle cards automatically.
+El objetivo del proyecto consiste en hacer el monitoreo de una partida del UNO, una de las cosas principales que hacemos en el proyecto es mirar cada una de las cartas que se van tirando en cada turno y por quién son tiradas, además de controlar si se hacen trampas o no. A más, otros objetivos del robot es que sea posible mezclar, repartir y dar diferentes cartas a los jugadores.
 
+Para hacer el monitoreo de la partida lo que hemos hecho ha sido diferentes algoritmos. Uno que nos permite recortar la carta que está arriba del montón, y otros dos que nos permiten reconocer el número de la carta y el color de la carta.
+Para hacer estos algoritmos hemos tenido que entrenar diferentes modelos. Para esto tuvimos que hacer un conjunto de datos customizado, ya que no encontrábamos ningún conjunto de datos que se ajustara a nuestra situación de las cartas del Uno. 
+
+La funcionalidad de mezclar está diseñada para mezclar las cartas que se encuentran en las dos cajas laterales. En la caja de almacenaje de cartas (ubicada en el medio) se juntarán los dos bloques quedando completamente mezclados.
+En el caso de repartir cartas, si el robot detecta que solo es necesario repartir una carta, se reparte una, si se detecta una carta de +2 se reparten dos cartas y para el caso del +4  se reparten  cuatro cartas.
+
+Además, tendremos un audio que irá informando al jugador de los movimientos que puede hacer en cada momento.
+
+En el caso de que la partida se acabe, lo que hacemos es guardar en la base de datos Firestore Database el historial de la partida, es decir, las cartas que se han tirado o robado, en qué turno, el día, la hora de la partida y el jugador que ha ganado. Este registro de partida estará disponible para todos los  participantes.
+
+</div>
 
 
 ## Requirements
-### Installation
+### Como jugar una partida
 
-1. Clonar el repositori
+ 1. Conectar el robot a la red électrica
+ 2. Conectar el robot a internet
+ 3. Establecer conexión entre la aplicación y el robot
+ 4. Empezar la partida des de la aplicación indicando los jugadores
+ 5. Seguir las instrucciones que el robot propociona por voz
+ 6. Una vez finalizada la partida se puede consultar esta a través de la app
 
-```bash
-  git clone https://https://github.com/PaulaFont/Uno-Mate
-```
+
+
+
+
 
 ## Library
 
-- [Hardware (Fritzing)](https://github.com/PaulaFont/Uno-Mate/Fritzing)
+- [Hardware (Fritzing)](https://github.com/PaulaFont/Uno-Mate/tree/main/Fritzing)
 
 - [3D](https://www.tinkercad.com/)
 
@@ -36,7 +52,7 @@ It also has an important part to shuffle cards automatically.
 
 - [Speech to text](https://cloud.google.com/speech-to-text/?hl=es&utm_source=google&utm_medium=cpc&utm_campaign=emea-es-all-es-dr-bkws-all-all-trial-e-gcp-1707574&utm_content=text-ad-none-any-DEV_c-CRE_593880918158-ADGP_Hybrid+%7C+BKWS+-+EXA+%7C+Txt+-+AI+And+Machine+Learning+-+Speech+to+Text+-+v1-KWID_43700053288209417-kwd-21425535976-userloc_20270&utm_term=KW_google%20speech%20to%20text-NET_g-PLAC_&&gad_source=1&gclid=CjwKCAjw8diwBhAbEiwA7i_sJRV1cr_KDYNgeVYz4GjR6m7_OZMuziSL3FX58t5i6XlOnxXAtUswKRoCR_wQAvD_BwE&gclsrc=aw.ds)
 
-## 3D Files
+## 3D-Files
 
 Cajas de madera:
 - Cajas de madera arriba : Tenemos los diseños de la plataforma donde jugaremos y las cajas de los laterales, donde irán las cartas.
@@ -46,11 +62,17 @@ Cajas de madera:
 Diseños 3D:
 - Rampa para cartas 3D: En este fichero lo que tenemos es el modelo de rampa 3D que ira en cada una de las cajas laterales, que permitira que las cartas salgan más facilmente
 
-## TO DO's
-
 
 
 ## References
 - [Shuffle Inspiration Video](https://www.youtube.com/watch?v=kTARmpW6t8g)
 - [Card Detector Github](https://github.com/EdjeElectronics/OpenCV-Playing-Card-Detector)
 - [Similar Project RLP](https://rlpengineeringschooluab2023.wordpress.com/2023/06/06/slapbot/)
+
+
+## Autors
+
+- Rubén García Viciana (1634065)
+- Marc Artero Pons (1632512)
+- Carles Fornés Mas (1633536)
+- Paula Font Solà (1633214)
