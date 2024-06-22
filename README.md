@@ -1,4 +1,4 @@
-# Uno-Mate
+# Uno-Mate ![Logo](https://github.com/PaulaFont/Uno-Mate/blob/main/miscelanea/Logo_UnoMate_mod_2.png)
 ### Contents
 
 1. [Description](#description)
