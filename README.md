@@ -1,17 +1,26 @@
-# Uno-Mate <img src="https://github.com/PaulaFont/Uno-Mate/blob/main/miscelanea/Logo_UnoMate_mod_2.png" alt="Logo" style="width: 75px; height: 75px; vertical-align: middle;">
+# Uno-Mate <img src="https://github.com/PaulaFont/Uno-Mate/blob/main/miscelanea/Logo_UnoMate_mod_2.png" alt="Logo" style="width: 50px; height: 50px; vertical-align: middle;">
 
-### Contents
+## Contendio del repositorio
+- **3D_files**: Directorio que contiene todos los ficheros relativos al diseño 3D del robot
+- **Fritzing**: Dentro de este tenemos todo el prototipaje de conexiones hecho en simulación
+- **Pressupostos**: En el interior podemos encontrar los ficheros con la lista de componentes y sus respectivos precios
+- **Sprints**: Aquí se encuentran todos los documentos relativos a los sprints
+- **miscelanea**: Carpeta donde se encuentra archivos de recursos para el proyecto
+- **src**: En esta carpeta es donde tenemos el código de nuestro robot
 
-1. [Description](#description)
-2. [Requirements](#requirements)
-3. [Library](#library)
+## Descripción del repositorio
+### Contenido
+
+1. [Descripcion](#descripcion)
+2. [Requisitos](#requisitos)
+3. [Librerias](#librerias)
 4. [Esquema conexiones](#Esquema-conexiones)
-5. [3D-Files](#3D-Files)
-6. [References](#references)
-7. [Autors](#3D-Files)
+5. [Ficheros-3D](#Ficheros-3D)
+6. [Referencias](#referencias)
+7. [Autores](#autores)
 
 
-### Description
+### Descripcion
 <div style="text-align: justify;">
 
 El objetivo del proyecto consiste en hacer el monitoreo de una partida del UNO, una de las cosas principales que hacemos en el proyecto es mirar cada una de las cartas que se van tirando en cada turno y por quién son tiradas, además de controlar si se hacen trampas o no. A más, otros objetivos del robot es que sea posible mezclar, repartir y dar diferentes cartas a los jugadores.
@@ -29,18 +38,18 @@ En el caso de que la partida se acabe, lo que hacemos es guardar en la base de d
 </div>
 
 
-## Requirements
+## Requisitos
 ### Como jugar una partida
 
- 1. Conectar el robot a la red électrica
+ 1. Conectar el robot a la red eléctrica
  2. Conectar el robot a internet
  3. Establecer conexión entre la aplicación y el robot
- 4. Empezar la partida des de la aplicación indicando los jugadores
- 5. Seguir las instrucciones que el robot propociona por voz
- 6. Una vez finalizada la partida se puede consultar esta a través de la app
+ 4. Empezar la partida desde la aplicación indicando los jugadores
+ 5. Seguir las instrucciones que el robot proporciona por voz
+ 6. Una vez finalizada la partida se puede consultar a través de la app
 
 
-## Library
+## Librerias
 
 - [Hardware (Fritzing)](https://github.com/PaulaFont/Uno-Mate/tree/main/Fritzing)
 
@@ -55,25 +64,25 @@ En el caso de que la partida se acabe, lo que hacemos es guardar en la base de d
 ![Image text](https://github.com/PaulaFont/Uno-Mate/blob/main/Fritzing/Esquema_conexiones_UnoMate.png)
 
 
-## 3D-Files
+## Ficheros-3D
 
 Cajas de madera:
 - Cajas de madera arriba : Tenemos los diseños de la plataforma donde jugaremos y las cajas de los laterales, donde irán las cartas.
-- Caja de madera medio: En este fichero nos encontramos la caja del medio que será donde caeran las cartas.
+- Caja de madera medio: En este fichero nos encontramos la caja del medio que será donde caerán las cartas.
 - Caja en forma de U: En esta caja será donde pondremos todos los componentes de nuestro robot, además encima irán cada una de las cajas mencionadas anteriormente
 
 Diseños 3D:
-- Rampa para cartas 3D: En este fichero lo que tenemos es el modelo de rampa 3D que ira en cada una de las cajas laterales, que permitira que las cartas salgan más facilmente
+- Rampa para cartas 3D: En este fichero lo que tenemos es el modelo de rampa 3D que irá en cada una de las cajas laterales, que permitirá que las cartas salgan más fácilmente
 
 
 
-## References
+## Referencias
 - [Shuffle Inspiration Video](https://www.youtube.com/watch?v=kTARmpW6t8g)
 - [Card Detector Github](https://github.com/EdjeElectronics/OpenCV-Playing-Card-Detector)
 - [Similar Project RLP](https://rlpengineeringschooluab2023.wordpress.com/2023/06/06/slapbot/)
 
 
-## Autors
+## Autores
 
 - Rubén García Viciana (1634065)
 - Marc Artero Pons (1632512)
