@@ -4,9 +4,10 @@
 1. [Description](#description)
 2. [Requirements](#requirements)
 3. [Library](#library)
-4. [3D-Files](#3D-Files)
-5. [References](#references)
-6. [Autors](#3D-Files)
+4. [Esquema conexiones](#Esquema-conexiones)
+5. [3D-Files](#3D-Files)
+6. [References](#references)
+7. [Autors](#3D-Files)
 
 
 ### Description
@@ -38,10 +39,6 @@ En el caso de que la partida se acabe, lo que hacemos es guardar en la base de d
  6. Una vez finalizada la partida se puede consultar esta a través de la app
 
 
-
-
-
-
 ## Library
 
 - [Hardware (Fritzing)](https://github.com/PaulaFont/Uno-Mate/tree/main/Fritzing)
@@ -51,6 +48,11 @@ En el caso de que la partida se acabe, lo que hacemos es guardar en la base de d
 - Detecció de cartes (VC)
 
 - [Speech to text](https://cloud.google.com/speech-to-text/?hl=es&utm_source=google&utm_medium=cpc&utm_campaign=emea-es-all-es-dr-bkws-all-all-trial-e-gcp-1707574&utm_content=text-ad-none-any-DEV_c-CRE_593880918158-ADGP_Hybrid+%7C+BKWS+-+EXA+%7C+Txt+-+AI+And+Machine+Learning+-+Speech+to+Text+-+v1-KWID_43700053288209417-kwd-21425535976-userloc_20270&utm_term=KW_google%20speech%20to%20text-NET_g-PLAC_&&gad_source=1&gclid=CjwKCAjw8diwBhAbEiwA7i_sJRV1cr_KDYNgeVYz4GjR6m7_OZMuziSL3FX58t5i6XlOnxXAtUswKRoCR_wQAvD_BwE&gclsrc=aw.ds)
+
+## Esquema-conexiones
+
+![Image text](https://github.com/PaulaFont/Uno-Mate/blob/main/Fritzing/Esquema_conexiones_UnoMate.png)
+
 
 ## 3D-Files
 
