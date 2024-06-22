@@ -1,4 +1,5 @@
-# Uno-Mate ![Logo](https://github.com/PaulaFont/Uno-Mate/blob/main/miscelanea/Logo_UnoMate_mod_2.png)
+# Uno-Mate <img src="https://github.com/PaulaFont/Uno-Mate/blob/main/miscelanea/Logo_UnoMate_mod_2.png" alt="Logo" style="width: 50px; height: 50px; vertical-align: middle;">
+
 ### Contents
 
 1. [Description](#description)
