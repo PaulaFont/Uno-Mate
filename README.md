@@ -13,14 +13,14 @@
 
 1. [Descripcion](#descripcion)
 2. [Requisitos](#requisitos)
-3. [Librerias](#librerias)
-4. [Esquema conexiones](#Esquema-conexiones)
-5. [Ficheros-3D](#Ficheros-3D)
+3. [Esquema conexiones](#esquema-conexiones)
+4. [Ficheros 3D](#ficheros-3d)
+5. [Herramientas Software utilizadas](#herramientas-software-utilizadas)
 6. [Referencias](#referencias)
 7. [Autores](#autores)
 
 
-### Descripcion
+## Descripcion
 <div style="text-align: justify;">
 
 El objetivo del proyecto consiste en hacer el monitoreo de una partida del UNO, una de las cosas principales que hacemos en el proyecto es mirar cada una de las cartas que se van tirando en cada turno y por quién son tiradas, además de controlar si se hacen trampas o no. A más, otros objetivos del robot es que sea posible mezclar, repartir y dar diferentes cartas a los jugadores.
