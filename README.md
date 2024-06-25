@@ -46,16 +46,14 @@ En el caso de que la partida se acabe, lo que hacemos es guardar en la base de d
  3. Establecer conexión entre la aplicación y el robot
  4. Empezar la partida desde la aplicación indicando los jugadores
  5. Seguir las instrucciones que el robot proporciona por voz
- 6. Una vez finalizada la partida se puede consultar a través de la app
+ 6. Una vez finalizada la partida se puede consultar el historial a través de la app
 
 
-## Librerias
+## Herramientas Software utilizadas
 
 - [Hardware (Fritzing)](https://github.com/PaulaFont/Uno-Mate/tree/main/Fritzing)
 
 - [3D](https://www.tinkercad.com/)
-
-- Detecció de cartes (VC)
 
 - [Speech to text](https://cloud.google.com/speech-to-text/?hl=es&utm_source=google&utm_medium=cpc&utm_campaign=emea-es-all-es-dr-bkws-all-all-trial-e-gcp-1707574&utm_content=text-ad-none-any-DEV_c-CRE_593880918158-ADGP_Hybrid+%7C+BKWS+-+EXA+%7C+Txt+-+AI+And+Machine+Learning+-+Speech+to+Text+-+v1-KWID_43700053288209417-kwd-21425535976-userloc_20270&utm_term=KW_google%20speech%20to%20text-NET_g-PLAC_&&gad_source=1&gclid=CjwKCAjw8diwBhAbEiwA7i_sJRV1cr_KDYNgeVYz4GjR6m7_OZMuziSL3FX58t5i6XlOnxXAtUswKRoCR_wQAvD_BwE&gclsrc=aw.ds)
 
