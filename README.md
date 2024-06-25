@@ -12,7 +12,7 @@
 ### Contenido
 
 1. [Descripcion](#descripcion)
-2. [Requisitos](#requisitos)
+2. [Como jugar una partida](#como-jugar-una-partida)
 3. [Herramientas Software utilizadas](#herramientas-software-utilizadas)
 4. [Esquema conexiones](#esquema-conexiones)
 5. [Ficheros 3D](#ficheros-3d)
@@ -38,8 +38,7 @@ En el caso de que la partida se acabe, lo que hacemos es guardar en la base de d
 </div>
 
 
-## Requisitos
-### Como jugar una partida
+## Como jugar una partida
 
  1. Conectar el robot a la red eléctrica
  2. Conectar el robot a internet
